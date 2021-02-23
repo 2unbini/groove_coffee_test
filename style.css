@@ -36,7 +36,7 @@ main {
 }
 
 .start__img {
-  width: 45%;
+  width: 35%;
   height: auto;
   margin-top: 10%;
   box-shadow: 0 0px 10px 2px rgba(105, 105, 105, 0.479);
@@ -71,7 +71,6 @@ main {
   object-fit: cover;
   box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.479);
 }
-}
 
 #drink {
   font-size: 30px;
@@ -95,6 +94,6 @@ main {
   margin-bottom: 5%;
 }
 
-.dess{
+.dess {
   font-size: 25px;
 }

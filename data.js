@@ -135,28 +135,28 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg"
             }, 
-    "DLSI": {
+    "DWSI": {
             "drink": "딸기 바나나 스무디",
             "explain": "딸기 바나나 스무디를 좋아하는 당신은<br> 딸기 바나나 스무디를 좋아하는군요!",
             "dessert": "치즈케이크",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg"
             }, 
-    "DLSH": {
+    "DWSH": {
             "drink": "핫 초코",
             "explain": "핫 초코를 좋아하는 당신은<br> 핫 초코를 좋아하는군요!",
             "dessert": "치즈케이크",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg"
             }, 
-    "DLNI": {
+    "DWNI": {
             "drink": "블루베리 바나나 스무디",
             "explain": "블루베리 바나나 스무디를 좋아하는 당신은<br> 블루베리 바나나 스무디를 좋아하는군요!",
             "dessert": "치즈케이크",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg"
             }, 
-    "DLNH": {
+    "DWNH": {
             "drink": "따뜻한 자몽 애플티",
             "explain": "따뜻한 자몽 애플티를 좋아하는 당신은<br> 따뜻한 자몽 애플티를 좋아하는군요!",
             "dessert": "치즈케이크",

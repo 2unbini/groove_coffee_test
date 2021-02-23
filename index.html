@@ -12,7 +12,7 @@
         <img class="start__img" src="images/groove.jpg">
         <h2 class="mt-5 text-center">지금 내게 딱 맞는 음료는?</h2>
         <div class="text-center">with groove coffee roasters</div>
-        <button type="button" class="btn btn-dark mt-5" onclick="start();">시작</button>
+        <button type="button" class="btn btn-dark mt-5 mb-5" onclick="start();">시작</button>
     </main>
 
     <main class="question">
@@ -82,10 +82,10 @@
                 $(".result").show();
                 var mbti="";
                 $("#CD").val() < 1 ? mbti += "D" : mbti += "C";
-                $("#LW").val() < 2 ? mbti += "L" : mbti += "W";
+                $("#LW").val() < 2 ? mbti += "W" : mbti += "L";
                 $("#SN").val() < 2 ? mbti += "N" : mbti += "S";
                 $("#IH").val() < 1 ? mbti += "H" : mbti += "I";
-                
+                //alert(mbti);
                 $("#img-drk").attr('src', "images/" + result[mbti]["img-drk"]);
                 $("#img-dess").attr('src', "images/" + result[mbti]["img-dess"]);
                 $("#drink").html(result[mbti]["drink"]);
