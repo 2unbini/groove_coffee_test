@@ -33,10 +33,13 @@ main {
 .start {
   color: rgba(0, 0, 0, 1);
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  height: 100vh;
+  vertical-align: middle;
 }
 
 .start__img {
-  width: 35%;
+  width: 25%;
   height: auto;
   margin-top: 10%;
   box-shadow: 0 0px 10px 2px rgba(105, 105, 105, 0.479);
@@ -44,22 +47,26 @@ main {
 
 .question {
   display: none;
-}
-
-.question {
-  margin-top: 20%;
+  height: 100vh;
+  vertical-align: middle;
+  padding-bottom: 10%;
 }
 
 .progress {
-  width: 60%;
+  width: 50%;
 }
 .progress-bar {
   background-color: burlywood;
 }
 
+#title {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
 #img-drk {
-  width: 230px;
-  height: 230px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
@@ -68,32 +75,39 @@ main {
 
 #img-dess,
 #img-drk-bff {
-  width: 150px;
-  height: 150px;
-  margin: 0 40px;
+  width: 130px;
+  height: 130px;
+  margin: 0 20px;
   object-fit: cover;
   box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.479);
 }
 
 #drink {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   color: black;
+  margin-top: 30px;
+}
+
+#summary {
+  font-size: 18px;
 }
 
 #explain {
-  font-size: 15px;
+  margin-top: 15px;
+  font-size: 13px;
   font-weight: 300;
   opacity: 0.5;
+  margin-bottom: 30px;
 }
 
 #dessert,
 #drink-bff {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .dess {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .result__more {
@@ -107,8 +121,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
-  margin: 60px 0px;
+  font-size: 10px;
+  margin: 40px 0px;
 }
 
 .more__infos {
@@ -118,8 +132,12 @@ main {
   margin: 30px 0px;
 }
 
+.more__des {
+  font-size: 15px;
+}
+
 .more__wz-btn {
-  margin: 20px 0px;
+  margin: 10px 0px 15px 0px;
 }
 
 .more__wz-btn:hover {
@@ -137,7 +155,7 @@ main {
 }
 
 .more__img {
-  width: 15%;
+  width: 100px;
 }
 
 i {
@@ -150,7 +168,7 @@ i {
 }
 
 .fa-copy {
-  font-size: 15px;
+  font-size: 10px;
   opacity: 0.5;
 }
 
@@ -165,31 +183,38 @@ i {
 
 .more__name {
   font-weight: bold;
+  font-size: 16px;
 }
 
-.more__sns {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
+.more__list {
+  padding-left: 25px;
 }
 
 .more__sns ul {
-  text-align: center;
   padding: 0;
 }
 
+.more__list li,
 .more__sns li {
   display: inline-block;
-  margin: 0 5px;
+  font-size: 14px;
+}
+
+.more__list i {
+  font-size: 10px;
 }
 
 .more__sns li img {
   border-radius: 50%;
+  width: 30px;
+  margin: 0 5px;
 }
 
 .more__btn {
   font-size: 13px;
+  margin-top: 10px;
+}
+
+.more__title {
   margin-top: 10px;
 }
