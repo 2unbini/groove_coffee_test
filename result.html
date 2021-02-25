@@ -63,13 +63,15 @@
     <input type="hidden" id="LB" value="0">
     <input type="hidden" id="SN" value="0">
     <input type="hidden" id="IH" value="0">
+    <input type="hidden" id="MBTI" value="MBTI">
 
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="data.js"></script>
-    <script type="text/javascript">
+    <script>
+
         var num=1;
         //new ClipboardJS('.btn-cpy');
         
@@ -83,7 +85,18 @@
                 //alert(mbti);
 
         var mbti = localStorage.getItem("mbti");
+        if(mbti===null || mbti===undefined){
+            mbti = document.querySelector("#MBTI").val;
+        } else {
+            document.querySelector("#MBTI").setAttribute('value', mbti)
+        }
+        console.log(document.querySelector("#MBTI").getAttribute('value'));
+        var mmbti = localStorage.mbti;
+        var mmmbti = localStorage['mbti'];
         console.log(mbti);
+
+        console.log(result);
+        console.log(result.mbti);
         $("#img-drk").attr('src', "images/" + result[mbti]["img-drk"]);
         $("#img-dess").attr('src', "images/" + result[mbti]["img-dess"]);
         $("#img-drk-bff").attr('src', "images/" + result[mbti]["img-drk-bff"]);

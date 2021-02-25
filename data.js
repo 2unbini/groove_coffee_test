@@ -89,7 +89,7 @@ var result = {
             "explain": "아이스 필터 커피 - 에티오피아를 좋아하는 당신은<br> 아이스 필터 커피 - 에티오피아를 좋아하는군요!",
             "dessert": "초코 마들렌",
             "drink-bff": "따뜻한 아메리카노",
-            "img-drk": "iamericano.jpg",
+            "img-drk": "ifilter.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg"
             }, 
