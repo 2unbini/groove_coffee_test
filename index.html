@@ -68,7 +68,7 @@
                         <a href="#" onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Twitter" ><img src="SNS_images/sns_tw.png" width="40" alt="트위터 공유하기"></a>
                     </li>
                     <li>
-                        <a id="create-kakao-link" href="javascript:shareKakao();"><img src="SNS_images/sns_ka.png" width="40" alt="카카오톡 공유하기"></a>
+                        <a id="create-kakao-link" href="javascript:;"><img src="SNS_images/sns_ka.png" width="40" alt="카카오톡 공유하기"></a>
                     </li>
                 </ul>
             </div>
@@ -171,28 +171,26 @@
         Kakao.init('13c76b556ec7e3c720adf2067eb9dbb0');
         console.log(Kakao.isInitialized());
 
-        function shareKakao(){
-            Kakao.Link.createDefaultButton({
-            container: '#create-kakao-link',
-            objectType: 'feed',
-            content: {
-                title: '내가 음료라면?',
-                description: '나는 무슨 음료일까? #성격테스트 #mbti #그루브커피',
-                image: 'images/groove.jpg',
-                link:{
+        Kakao.Link.createDefaultButton({
+        container: '#create-kakao-link',
+        objectType: 'feed',
+        content: {
+            title: '내가 음료라면?',
+            description: '나는 무슨 음료일까? #성격테스트 #mbti #그루브커피',
+            image: 'images/groove.jpg',
+            link:{
+                mobileWebUrl: 'https://groove-coffee-test.netlify.app/',
+                webUrl: 'https://groove-coffee-test.netlify.app/'
+            },
+        },
+            buttons: {
+                title: '웹으로 보기',
+                link: {
                     mobileWebUrl: 'https://groove-coffee-test.netlify.app/',
                     webUrl: 'https://groove-coffee-test.netlify.app/'
                 },
-            },
-            buttons: {
-                    title: '웹으로 보기',
-                    link: {
-                        mobileWebUrl: 'https://groove-coffee-test.netlify.app/',
-                        webUrl: 'https://groove-coffee-test.netlify.app/'
-                    },
-                },  
-        })
-        }
+            },  
+        });
         
 
     </script>
