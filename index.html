@@ -60,7 +60,17 @@
                 </ul>
             </div>
             <div class="more__sns">
-
+                <ul>
+                    <li>
+                        <a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=' +encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Facebook" ><img src="SNS_images/sns_face.png" width="40" alt="페이스북 공유하기"></a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Twitter" ><img src="SNS_images/sns_tw.png" width="40" alt="트위터 공유하기"></a>
+                    </li>
+                    <li>
+                        <a id="create-kakao-link" href="javascript:Kakao.Link.createDefaultButton(settings);"><img src="SNS_images/sns_ka.png" width="40" alt="카카오톡 공유하기"></a>
+                    </li>
+                </ul>
             </div>
 
             <footer class="mt-5" style="opacity: 0.3;">
@@ -78,7 +88,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="data.js"></script>
-    <script>
+    <script type="text/javascript">
         var num=1;
         //new ClipboardJS('.btn-cpy');
 
@@ -155,6 +165,29 @@
             setToolTip('복사에 실패했습니다');
             hideToolTip();
         });
+
+        Kakao.Link.createDefaultButton({
+            container: '#create-kakao-link',
+            objectType: 'feed',
+            content: {
+                title: '내가 음료라면?',
+                description: '나는 무슨 음료일까? #성격테스트 #mbti #그루브커피',
+                image: 'images/groove.jpg',
+                link:{
+                    mobileWebUrl: 'https://groove-coffee-test.netlify.app/',
+                    webUrl: 'https://groove-coffee-test.netlify.app/'
+                },
+            },
+            buttons: {
+                    title: '웹으로 보기',
+                    link: {
+                        mobileWebUrl: 'https://groove-coffee-test.netlify.app/',
+                        webUrl: 'https://groove-coffee-test.netlify.app/'
+                    },
+                },
+            
+        })
+        Kakao.Link.createDefaultButton(settings);
 
     </script>
 

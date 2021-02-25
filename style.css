@@ -167,3 +167,17 @@ i {
 .more__name {
   font-weight: bold;
 }
+
+.more__sns {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.more__sns li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.more__sns li img {
+  border-radius: 50%;
+}
