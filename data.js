@@ -83,7 +83,8 @@ var result = {
             "drink-bff": "블루베리 바나나 스무디",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "CLSH": {
             "drink": "따뜻한 바닐라 라떼",
@@ -93,7 +94,8 @@ var result = {
             "drink-bff": "따뜻한 자몽 애플티",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "CLNI": {
             "drink": "아이스 필터 커피 - 에티오피아",
@@ -103,7 +105,8 @@ var result = {
             "drink-bff": "딸기 바나나 스무디",
             "img-drk": "ifilter.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "CLNH": {
             "drink": "에스프레소 마끼아또",
@@ -113,7 +116,8 @@ var result = {
             "drink-bff": "핫 초코",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "CBSI": {
             "drink": "아포가토",
@@ -123,7 +127,8 @@ var result = {
             "drink-bff": "아이스 레몬 히비스커스 티",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "CBSH": {
             "drink": "카라멜 라떼",
@@ -133,7 +138,8 @@ var result = {
             "drink-bff": "따뜻한 레몬차",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "CBNI": {
             "drink": "플랫 화이트",
@@ -143,7 +149,8 @@ var result = {
             "drink-bff": "오미자 에이드",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "CBNH": {
             "drink": "따뜻한 라떼",
@@ -153,7 +160,8 @@ var result = {
             "drink-bff": "따뜻한 오미자차",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "DLSI": {
             "drink": "오미자 에이드",
@@ -163,7 +171,8 @@ var result = {
             "drink-bff": "플랫 화이트",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "DLSH": {
             "drink": "따뜻한 오미자차",
@@ -173,7 +182,8 @@ var result = {
             "drink-bff": "따뜻한 카라멜 라떼",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "DLNI": {
             "drink": "아이스 레몬 히비스커스 티",
@@ -183,7 +193,8 @@ var result = {
             "drink-bff": "아포가토",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "DLNH": {
             "drink": "따뜻한 레몬차",
@@ -193,7 +204,8 @@ var result = {
             "drink-bff": "따뜻한 라떼",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "DBSI": {
             "drink": "딸기 바나나 스무디",
@@ -203,7 +215,8 @@ var result = {
             "drink-bff": "아이스 필터 커피(에티오피아)",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#"
             }, 
     "DBSH": {
             "drink": "핫 초코",
@@ -213,7 +226,8 @@ var result = {
             "drink-bff": "따뜻한 바닐라 라떼",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#사랑둥이 #경청왕 #정_많은_사람"
             }, 
     "DBNI": {
             "drink": "블루베리 바나나 스무디",
@@ -223,7 +237,8 @@ var result = {
             "drink-bff": "아이스 바닐라 라떼",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#겉은_진지 #속은_달달 #겉진속달"
             }, 
     "DBNH": {
             "drink": "따뜻한 자몽 애플티",
@@ -233,6 +248,7 @@ var result = {
             "drink-bff": "에스프레소 마끼아또",
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
-            "img-drk-bff": "hcoffee.jpg"
+            "img-drk-bff": "hcoffee.jpg",
+            "tags": "#여리지만_단단한 #배려하는 #따뜻한"
             },
 };

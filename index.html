@@ -22,8 +22,8 @@
         </div>
         <h2 id="title" class="mt-5 text-center">1. 질문</h2>
         <input id="type" type="hidden" value="CD">
-        <button id="A" type="button" class="btn btn-outline-dark mt-5">답변A</button>
-        <button id="B" type="button" class="btn btn-outline-dark mt-3">답변B</button>
+        <button id="A" type="button" class="mt-5">답변A</button>
+        <button id="B" type="button" class="mt-3">답변B</button>
     </main>
 
 
@@ -39,7 +39,6 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script>
         var num=1;
-        //new ClipboardJS('.btn-cpy');
 
         function start() {
             $(".start").hide();
@@ -66,10 +65,7 @@
                 $("#SN").val() < 2 ? mbti += "N" : mbti += "S";
                 $("#IH").val() < 2 ? mbti += "H" : mbti += "I";
                 window.location.href = "result.html?index=" + mbti;
-                //$("input[name=mbtiResult]").attr('value', mbti);
-                //jQuery('selector-to-form').submit();
-                //localStorage.setItem("mbti", mbti);
-                //location.href = "result.html"
+
             } else{
                 $(".progress-bar").attr('style', 'width: calc(100/12*'+num+'%)');
                 $(".progress-bar").html(num+'/12');
@@ -81,62 +77,6 @@
             }
             
         };
-
-        /*
-        $('.btn-cpy').tooltip({
-            trigger: 'click',
-            placement: 'bottom'
-        });
-
-        function setToolTip(message){
-            $('.btn-cpy').tooltip('hide').attr('data-original-title', message).tooltip('show');
-        }
-
-        function hideToolTip(){
-            setTimeout(function(){
-                $('.btn-cpy').tooltip('hide');
-            }, 1000);
-        }
-
-        var clipboard = new ClipboardJS('.btn-cpy');
-
-        clipboard.on('success', function(e){
-            setToolTip('복사 되었습니다!');
-            hideToolTip();
-        });
-
-        clipboard.on('error', function(e){
-            setToolTip('복사에 실패했습니다');
-            hideToolTip();
-        });
-
-        // SDK 초기화. 권은빈의 JS KEY
-        Kakao.init('13c76b556ec7e3c720adf2067eb9dbb0');
-        console.log(Kakao.isInitialized());
-
-        Kakao.Link.createDefaultButton({
-        container: '#create-kakao-link',
-        objectType: 'feed',
-        content: {
-            title: '내가 음료라면?',
-            description: '#성격테스트 #mbti #그루브커피',
-            imageUrl: 'images/groove.jpg',
-            link:{
-                mobileWebUrl: 'https://groove-coffee-test.netlify.app/',
-                webUrl: 'https://groove-coffee-test.netlify.app/'
-            },
-        },
-            buttons: [
-                {
-                    title: '웹에서 보기',
-                    link: {
-                        mobileWebUrl: 'https://groove-coffee-test.netlify.app/',
-                        webUrl: 'https://groove-coffee-test.netlify.app/'
-                    },
-                },
-            ]  
-        });
-        */
 
     </script>
 

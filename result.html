@@ -64,37 +64,16 @@
     <input type="hidden" id="LB" value="0">
     <input type="hidden" id="SN" value="0">
     <input type="hidden" id="IH" value="0">
-    <input type="hidden" id="MBTI" value="MBTI">
     
 
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <script src="data.js"></script>
     <script>
 
         var num=1;
-        //new ClipboardJS('.btn-cpy');
-        
-        /*
-        var mbti="";
-        $("#CD").val() < 1 ? mbti += "D" : mbti += "C";
-        $("#LB").val() < 2 ? mbti += "B" : mbti += "L";
-        $("#SN").val() < 2 ? mbti += "N" : mbti += "S";
-        $("#IH").val() < 2 ? mbti += "H" : mbti += "I";
-        */
-                //alert(mbti);
-
-        /*
-        var mbti = localStorage.getItem("mbti");
-        if(mbti===null || mbti===undefined){
-            mbti = document.querySelector("#MBTI").val;
-        } else {
-            document.querySelector("#MBTI").setAttribute('value', mbti)
-        }
-        */
 
         function getParameterByName(name){
             name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -128,35 +107,6 @@
             document.body.removeChild(tempElem);
         });
 
-        /*
-        $('.btn-cpy').tooltip({
-            trigger: 'click',
-            placement: 'bottom'
-        });
-
-        function setToolTip(message){
-            $('.btn-cpy').tooltip('hide').attr('data-original-title', message).tooltip('show');
-        }
-
-        function hideToolTip(){
-            setTimeout(function(){
-                $('.btn-cpy').tooltip('hide');
-            }, 1000);
-        }
-
-        var clipboard = new ClipboardJS('.btn-cpy');
-
-        clipboard.on('success', function(e){
-            setToolTip('복사 되었습니다!');
-            hideToolTip();
-        });
-
-        clipboard.on('error', function(e){
-            setToolTip('복사에 실패했습니다');
-            hideToolTip();
-        });
-        */
-
         // SDK 초기화. 권은빈의 JS KEY
         Kakao.init('13c76b556ec7e3c720adf2067eb9dbb0');
         console.log(Kakao.isInitialized());
@@ -166,7 +116,7 @@
         objectType: 'feed',
         content: {
             title: document.querySelector("#drink").innerText,
-            description: '#내가_음료라면? #성격테스트 #mbti #그루브커피 #휴먼커넥터',
+            description: document.querySelector('#tags') + ' #내가_음료라면? #성격테스트',
             imageUrl: document.querySelector("#img-drk").src,
             link:{
                 mobileWebUrl: 'https://groove-coffee-test.netlify.app',

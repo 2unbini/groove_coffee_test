@@ -59,6 +59,22 @@ main {
   background-color: burlywood;
 }
 
+#A,
+#B {
+  padding: 8px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: transparent;
+}
+
+#A:active,
+#B:active {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  outline: solid black;
+  outline-style: auto;
+}
+
 #title {
   font-size: 18px;
   margin: 0 10px;
