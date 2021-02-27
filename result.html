@@ -16,6 +16,7 @@
         <h2 id="drink" class="text-center">음료 이름</h2>
         <h3 id="summary" class="text-center">음료 한줄</h3>
         <p id="explain" class="text-center">음료 설명</p>
+        <div id="tags" style="display: none;">tags</div>
         <div class="result__more">
             <div class="result__dessert">
                 <h3 class="text-center dess">나와 어울리는 디저트</h3>
@@ -92,6 +93,7 @@
         $("#drink-bff").html(result[mbti]["drink-bff"]);
         $("#explain").html(result[mbti]["explain"]);
         $("#summary").html(result[mbti]["summary"]);
+        $("#tags").html(result[mbti]["tags"]);
 
         document.querySelector(".btn-cpy").addEventListener("click", function(){
             var tempElem = document.createElement('textarea');

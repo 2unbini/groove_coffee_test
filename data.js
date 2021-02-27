@@ -84,7 +84,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#아바라"
             }, 
     "CLSH": {
             "drink": "따뜻한 바닐라 라떼",
@@ -95,7 +95,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#따바라"
             }, 
     "CLNI": {
             "drink": "아이스 필터 커피 - 에티오피아",
@@ -106,7 +106,7 @@ var result = {
             "img-drk": "ifilter.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#아필커"
             }, 
     "CLNH": {
             "drink": "에스프레소 마끼아또",
@@ -117,7 +117,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#에끼아또"
             }, 
     "CBSI": {
             "drink": "아포가토",
@@ -128,7 +128,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#매력쟁이 #집념왕 #깊은관계"
             }, 
     "CBSH": {
             "drink": "카라멜 라떼",
@@ -139,7 +139,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#열정맨 #배려왕 #자기성찰"
             }, 
     "CBNI": {
             "drink": "플랫 화이트",
@@ -150,7 +150,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#책임감 #성숙함 #통찰력"
             }, 
     "CBNH": {
             "drink": "따뜻한 라떼",
@@ -161,7 +161,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#아싸중_인싸 #섬세함 #잠재열정"
             }, 
     "DLSI": {
             "drink": "오미자 에이드",
@@ -172,7 +172,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#톡쏘는 #낙천적인 #유쾌한"
             }, 
     "DLSH": {
             "drink": "따뜻한 오미자차",
@@ -183,7 +183,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#포근한 #달달한 #의지가_되는"
             }, 
     "DLNI": {
             "drink": "아이스 레몬 히비스커스 티",
@@ -194,7 +194,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#시원시원 #열정가득 #최선을_다함"
             }, 
     "DLNH": {
             "drink": "따뜻한 레몬차",
@@ -205,7 +205,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#레몿나"
             }, 
     "DBSI": {
             "drink": "딸기 바나나 스무디",
@@ -216,7 +216,7 @@ var result = {
             "img-drk": "iamericano.jpg",
             "img-dess": "cheesecake.jpg",
             "img-drk-bff": "hcoffee.jpg",
-            "tags": "#"
+            "tags": "#겉은_차갑 #속은_달달 #매력왕"
             }, 
     "DBSH": {
             "drink": "핫 초코",
