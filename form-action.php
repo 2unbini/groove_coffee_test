@@ -1,3 +1,6 @@
+<?php
+    $resultMBTI = $_GET['resultMBTI'];
+?>
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -64,14 +67,12 @@
     <input type="hidden" id="LB" value="0">
     <input type="hidden" id="SN" value="0">
     <input type="hidden" id="IH" value="0">
-    <input type="hidden" id="MBTI" value="MBTI">
-    
+    <span style="display: none;">mbti : <?php echo $resultMBTI ?></span>
 
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <script src="data.js"></script>
     <script>
 
@@ -87,23 +88,12 @@
         */
                 //alert(mbti);
 
-        /*
         var mbti = localStorage.getItem("mbti");
         if(mbti===null || mbti===undefined){
             mbti = document.querySelector("#MBTI").val;
         } else {
             document.querySelector("#MBTI").setAttribute('value', mbti)
         }
-        */
-
-        function getParameterByName(name){
-            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-                results = regex.exec(location.search);
-                return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-        }
-
-        var mbti = getParameterByName('index');
 
         $("#img-drk").attr('src', "images/" + result[mbti]["img-drk"]);
         $("#img-dess").attr('src', "images/" + result[mbti]["img-dess"]);
@@ -114,21 +104,7 @@
         $("#explain").html(result[mbti]["explain"]);
         $("#summary").html(result[mbti]["summary"]);
 
-        document.querySelector(".btn-cpy").addEventListener("click", function(){
-            var tempElem = document.createElement('textarea');
-            tempElem.value = '서울 노원구 동일로186길 64';
-            document.body.appendChild(tempElem);
-            tempElem.select();
-            document.execCommand("copy");
-            if(document.execCommand("copy")==true){
-                alert("복사 되었습니다");
-            } else {
-                alert("복사에 실패했습니다");
-            }
-            document.body.removeChild(tempElem);
-        });
 
-        /*
         $('.btn-cpy').tooltip({
             trigger: 'click',
             placement: 'bottom'
@@ -155,7 +131,6 @@
             setToolTip('복사에 실패했습니다');
             hideToolTip();
         });
-        */
 
         // SDK 초기화. 권은빈의 JS KEY
         Kakao.init('13c76b556ec7e3c720adf2067eb9dbb0');
