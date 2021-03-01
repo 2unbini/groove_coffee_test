@@ -6,6 +6,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "SunBatang-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @keyframes fadeIn {
   from {
@@ -112,10 +119,10 @@ main {
 
 #explain {
   margin-top: 15px;
-  font-size: 13px;
-  font-weight: 300;
-  opacity: 0.5;
+  font-size: 14px;
+  opacity: 0.6;
   margin-bottom: 30px;
+  line-height: 180%;
 }
 
 #dessert,
@@ -150,15 +157,25 @@ main {
 }
 
 .more__des {
-  font-size: 15px;
+  font-size: 13px;
+  font-family: "SunBatang-Bold";
+}
+
+.more__webzine {
+  border: 2.2px solid black;
+  border-radius: 5px;
+  padding: 30px 25px 15px 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .more__wz-btn {
   margin: 10px 0px 15px 0px;
-}
-
-.more__wz-btn:hover {
-  background-color: mediumslateblue;
+  font-family: "SunBatang-Bold";
+  font-size: 14px;
 }
 
 .more__list {
