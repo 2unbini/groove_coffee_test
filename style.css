@@ -73,6 +73,7 @@ main {
   border-radius: 5px;
   border: 0.1px solid rgba(0, 0, 0, 0.62);
   outline: transparent;
+  margin-top: 30px;
 }
 
 #A:active,
@@ -86,11 +87,17 @@ main {
 #title {
   font-size: 20px;
   margin: 0 10px;
+  margin-bottom: 30px;
+  width: 80%;
+  line-height: 160%;
+  word-break: keep-all;
 }
 
 #img-drk {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
+  padding: 20px;
+  background-color: white;
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 30px;
@@ -106,6 +113,8 @@ main {
   margin: 0 15px;
   object-fit: contain;
   box-shadow: 0 0px 10px 0px rgba(105, 105, 105, 0.2);
+  padding: 5px;
+  background-color: white;
 }
 
 #drink {
@@ -146,6 +155,12 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#explain-dess,
+#explain-bff {
+  font-size: 14px;
+  color: rgb(102, 84, 60);
 }
 
 /*

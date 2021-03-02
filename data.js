@@ -1,73 +1,73 @@
 var q = {
     1 : {
         type: "LB",
-        title: "1. 바쁜 일정이 끝나고 오랜만에 쉬는날이다!",
+        title: "1.  바쁜 일정이 끝나고 오랜만에 쉬는날이다!",
         A: "늦잠을 자며 침대 밖으로 벗어나지 않는다.",
         B: "간만의 쉬는날, 이미 계획해놓은 게 있다."
     },
     2 : {
         type: "LB",
-        title: "2. 친구와의 약속에 늦을 것 같다! 나는,",
+        title: "2.  친구와의 약속에 늦을 것 같다!",
         A: "어쩔 수 없다. 미안해 친구야...",
         B: "그럴 일 없다. 오히려 친구를 기다린다."
     },
     3 : {
         type: "LB",
-        title: "3. 유명한 카페를 찾아갔는데 웨이팅을 해야한다면?",
+        title: "3.  유명한 카페를 찾아갔는데 웨이팅을 해야한다면?",
         A: "옆에 가게도 좋아보인다! 옆집으로 가자.",
         B: "조금만 기다리면 될 것 같다. 기다리자!"
     },
     4 : {
         type: "CD",
-        title: "4. 내가 카페를 가는 이유는,",
+        title: "4.  내가 카페를 가는 이유는?",
         A: "혼자만의 시간을 가지기 위해",
         B: "친구들과 수다 떨기 위해"
     },
     5 : {
         type: "CD",
-        title: "5. 내가 시킨 음료가 아닌 다른 게 나왔다!",
+        title: "5.  내가 시킨 음료가 아닌 다른 게 나왔다!",
         A: "'내가 잘못 시켰나보다', 그냥 받아온다.",
         B: "\"잘못 나온 것 같아요\", 바로 말한다."
     },
     6 : {
         type: "CD",
-        title: "6. 즐겨 가는 카페에 왔다! 내가 앉는 자리는,",
+        title: "6.  즐겨 가는 카페에 왔다! 내가 앉는 자리는?",
         A: "조용하고 아늑한 소파 좌석",
         B: "시원하고 탁 트인 야외 테라스"
     },
     7 : {
         type: "SN",
-        title: "7. 카페에서 친구가 갑자기 고민 상담을 한다. 나는,",
+        title: "7.  카페에서 친구가 갑자기 고민 상담을 한다. 나의 반응은?",
         A: "\"어떡해ㅠㅠ\", 폭풍 리액션으로 다독여준다.",
         B: "\"~를 해보는 게 어때?\", 현실적인 조언을 한다. "
     },
     8 : {
         type: "SN",
-        title: "8. 화가 나는 일이 생겼다. 하소연을 들어주러 나온 친구에게 나는,",
+        title: "8.  화가 나는 일이 생겼다. 하소연을 들어주러 나온 친구에게 나는?",
         A: "얼음을 씹어먹으며 감정을 마구 분출한다.",
         B: "어떻게 된 일인지 처음부터 끝까지 읊는다."
     },
     9 : {
         type: "SN",
-        title: "9. 카페 분위기가 정말 좋다!",
+        title: "9.  지나가다 들른 카페 분위기가 좋을 때 나의 마음은?",
         A: "'와 여기 정말 좋다'",
         B: "'조명이 따뜻해서 마음이 편안해져'"
     },
     10 : {
         type: "IH",
-        title: "10. 카페에 가면 나는,",
+        title: "10.  카페에 가면 나는?",
         A: "늘 마시던 음료를 시킨다.",
         B: "그때 그때 기분에 따라 새로운 걸 시도한다."
     },
     11 : {
         type: "IH",
-        title: "11. 친구를 위한 디저트를 사가려고 할 때 나는,",
+        title: "11.  친구를 위한 디저트를 사가려고 한다, 나는?",
         A: "친구의 입맛에 맞춘 디저트를 시킨다.",
         B: "요즘 유행하는 디저트를 시도해본다."
     },
     12 : {
         type: "IH",
-        title: "12. 카페 직원이 완전 내 스타일이다. 나는,",
+        title: "12.  카페 직원이 완전 내 스타일이다, 나는?",
         A: "'번호를 물어보면 실례가 될까?'",
         B: "(이미 노후준비까지 끝마쳤다)"
     }
@@ -84,7 +84,9 @@ var result = {
             "img-drk": "vanilaice.jpg",
             "img-dess": "churros.jpg",
             "img-drk-bff": "blueba.jpg",
-            "tags": "#시크 #독립적 #낭만파"
+            "tags": "#시크 #독립적 #낭만파",
+            "ex-dess": "달콤하고 바삭한",
+            "ex-bff": "겉은 진지 속은 달달",
             }, 
     "CLSH": {
             "drink": "따뜻한 바닐라 라떼",
@@ -95,7 +97,9 @@ var result = {
             "img-drk": "vanila.jpg",
             "img-dess": "saltcho.jpg",
             "img-drk-bff": "grapefruit.jpg",
-            "tags": "#로맨티스트 #무계획 #정많음"
+            "tags": "#로맨티스트 #무계획 #정많음",
+            "ex-dess": "달콤하고 짭짤한",
+            "ex-bff": "마음이 여리고 따뜻한",
             }, 
     "CLNI": {
             "drink": "아이스 필터 커피 - 에티오피아",
@@ -106,7 +110,9 @@ var result = {
             "img-drk": "filter.jpg",
             "img-dess": "chocolate.jpg",
             "img-drk-bff": "ddalba.jpg",
-            "tags": "#이성적 #단호박 #저돌적"
+            "tags": "#이성적 #단호박 #저돌적",
+            "ex-dess": "달콤하고 촉촉한",
+            "ex-bff": "반전 매력",
             }, 
     "CLNH": {
             "drink": "따뜻한 아메리카노",
@@ -117,7 +123,9 @@ var result = {
             "img-drk": "americano.jpg",
             "img-dess": "lemon.jpg",
             "img-drk-bff": "hotchocolate.jpg",
-            "tags": "#사색가 #혼자만의_시간 #속을_알수없는"
+            "tags": "#사색가 #혼자만의_시간 #속을_알수없는",
+            "ex-dess": "상큼 발랄한",
+            "ex-bff": "달달해서 자꾸 끌리는",
             }, 
     "CBSI": {
             "drink": "아포가토",
@@ -128,10 +136,12 @@ var result = {
             "img-drk": "affogato.jpg",
             "img-dess": "creamcheese.jpg",
             "img-drk-bff": "lemonhibi.jpg",
-            "tags": "#다정함 #눈치빠름 #깊은_인간관계"
+            "tags": "#다정함 #눈치빠름 #깊은_인간관계",
+            "ex-dess": "포근포근한",
+            "ex-bff": "다정다감한",
             }, 
     "CBSH": {
-            "drink": "카라멜 라떼",
+            "drink": "따뜻한 카라멜 라떼",
             "summary": "속 깊은 열정맨인 당신!",
             "explain": "‣ 따뜻한 마음과 활활 타는 열정까지 겸비한 당신은 누구에게나 사랑받는 사람이에요.<br>‣ 친구관계, 연애, 일 등 어떤 일이든 열정이 넘치지만 열정 아래에 상대방에 대한 배려가 깔려 있어 주변 사람들을 기분 좋게 만들어요.<br>‣ 상상력이 뛰어나고, 가끔 비현실적이란 소리를 듣지만 무엇이든 배우기 좋아하고, 좋아하는 일에 헌신할 줄 아는 전문가인 당신은 끝없이 성찰할 줄 아는 사람이에요.",
             "dessert": "버터 스콘",
@@ -139,7 +149,9 @@ var result = {
             "img-drk": "caramel.jpg",
             "img-dess": "butter.jpg",
             "img-drk-bff": "lemon.jpg",
-            "tags": "#유노윤호 #배려왕 #자기성찰"
+            "tags": "#유노윤호 #배려왕 #자기성찰",
+            "ex-dess": "풍미 가득한",
+            "ex-bff": "차분한 눈치왕",
             }, 
     "CBNI": {
             "drink": "플랫 화이트",
@@ -150,7 +162,9 @@ var result = {
             "img-drk": "flat.jpg",
             "img-dess": "saltcar.jpg",
             "img-drk-bff": "omijaade.jpg",
-            "tags": "#책임감 #완벽주의 #솔직함"
+            "tags": "#책임감 #완벽주의 #솔직함",
+            "ex-dess": "고소하고 짭짤한",
+            "ex-bff": "유쾌하고 톡 쏘는",
             }, 
     "CBNH": {
             "drink": "에스프레소 마끼아또",
@@ -161,7 +175,9 @@ var result = {
             "img-drk": "espresso.jpg",
             "img-dess": "churros.jpg",
             "img-drk-bff": "omija.jpg",
-            "tags": "#츤데레 #섬세함 #잠재적_열정맨"
+            "tags": "#츤데레 #섬세함 #잠재적_열정맨",
+            "ex-dess": "달콤하고 바삭한",
+            "ex-bff": "포근하고 달달한",
             }, 
     "DLSI": {
             "drink": "오미자 에이드",
@@ -172,7 +188,9 @@ var result = {
             "img-drk": "omijaade.jpg",
             "img-dess": "saltcho.jpg",
             "img-drk-bff": "flat.jpg",
-            "tags": "#톡쏘는 #낙천적인 #유쾌한"
+            "tags": "#톡쏘는 #낙천적인 #유쾌한",
+            "ex-dess": "달콤하고 짭짤한",
+            "ex-bff": "순수한 완벽주의자",
             }, 
     "DLSH": {
             "drink": "따뜻한 오미자차",
@@ -183,18 +201,22 @@ var result = {
             "img-drk": "omija.jpg",
             "img-dess": "chocolate.jpg",
             "img-drk-bff": "caramel.jpg",
-            "tags": "#포근한 #달달한 #의지가_되는"
+            "tags": "#포근한 #달달한 #의지가_되는",
+            "ex-dess": "달콤하고 촉촉한",
+            "ex-bff": "속 깊은 열정맨",
             }, 
     "DLNI": {
             "drink": "아이스 레몬 히비스커스 티",
-            "summary": "시원시원한 매력을 가진 당신!",
+            "summary": "다정다감한 당신!",
             "explain": "‣ 가까운 사람에겐 누구보다 다정하고 잘 대해주지만 새로운 사람에겐 약간 낯을 가려요.<br>‣ 겉으로는 티가 잘 나지 않지만 내면은 열정으로 가득 찬 사람이에요.<br>‣ 사색에 빠지는 시간을 즐기고, 매 순간 자신에게 최선을 다해요.",
             "dessert": "오레오 스콘",
             "drink-bff": "아포가토",
             "img-drk": "lemonhibi.jpg",
             "img-dess": "oreo.jpg",
             "img-drk-bff": "affogato.jpg",
-            "tags": "#시원시원 #열정가득 #최선을_다함"
+            "tags": "#다정함 #열정가득 #사색가",
+            "ex-dess": "달달하고 묵직한",
+            "ex-bff": "마음을 녹이는 매력쟁이",
             }, 
     "DLNH": {
             "drink": "따뜻한 레몬차",
@@ -205,7 +227,9 @@ var result = {
             "img-drk": "lemon.jpg",
             "img-dess": "saltcar.jpg",
             "img-drk-bff": "espresso.jpg",
-            "tags": "#통찰력 #차분함 #희생정신"
+            "tags": "#통찰력 #차분함 #희생정신",
+            "ex-dess": "고소하고 짭짤한",
+            "ex-bff": "책임감 강한 모범생",
             }, 
     "DBSI": {
             "drink": "딸기 바나나 스무디",
@@ -216,7 +240,9 @@ var result = {
             "img-drk": "ddalba.jpg",
             "img-dess": "butter.jpg",
             "img-drk-bff": "filter.jpg",
-            "tags": "#겉은_차갑 #속은_달달 #친절함"
+            "tags": "#겉은_차갑 #속은_달달 #친절함",
+            "ex-dess": "풍미 가득한",
+            "ex-bff": "차갑고 깔끔한",
             }, 
     "DBSH": {
             "drink": "핫 초코",
@@ -227,7 +253,9 @@ var result = {
             "img-drk": "hotchocolate.jpg",
             "img-dess": "oreo.jpg",
             "img-drk-bff": "vanila.jpg",
-            "tags": "#사랑둥이 #경청왕 #정_많은_사람"
+            "tags": "#사랑둥이 #경청왕 #정_많은_사람",
+            "ex-dess": "달달하고 묵직한",
+            "ex-bff": "바닐라 향처럼 로맨틱한",
             }, 
     "DBNI": {
             "drink": "블루베리 바나나 스무디",
@@ -238,7 +266,9 @@ var result = {
             "img-drk": "blueba.jpg",
             "img-dess": "saltcar.jpg",
             "img-drk-bff": "vanilaice.jpg",
-            "tags": "#겉은_진지 #속은_달달 #겉진속달"
+            "tags": "#겉은_진지 #속은_달달 #겉진속달",
+            "ex-dess": "고소하고 짭짤한",
+            "ex-bff": "차갑지만 달달한",
             }, 
     "DBNH": {
             "drink": "따뜻한 자몽 애플티",
@@ -249,6 +279,8 @@ var result = {
             "img-drk": "grapefruit.jpg",
             "img-dess": "creamcheese.jpg",
             "img-drk-bff": "americano.jpg",
-            "tags": "#여리지만_단단한 #배려하는 #따뜻한"
+            "tags": "#여리지만_단단한 #배려하는 #따뜻한",
+            "ex-dess": "포근 포근한",
+            "ex-bff": "알 수 없는 매력의",
             },
 };

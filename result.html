@@ -12,7 +12,7 @@
 <body class="container">
 
     <main class="result" action="">
-        <img id="img-drk" src="images/drink.png">
+        <img id="img-drk" src="">
         <h2 id="drink" class="text-center">음료 이름</h2>
         <h3 id="summary" class="text-center">음료 한줄</h3>
         <p id="explain" >음료 설명</p>
@@ -20,13 +20,17 @@
         <div class="result__more">
             <div class="result__dessert">
                 <h3 class="text-center dess">나와 어울리는 디저트</h3>
-                <img id="img-dess" src="images/dessert.png">
-                <h3 id="dessert" class="text-center mt-4">디저트 이름</h3>
+                <img id="img-dess" src="">
+                <div id="explain-dess" class="text-center mt-4">한줄설명</div>
+                <h3 id="dessert" class="text-center mt-1">디저트 이름</h3>
+                
             </div>
             <div class="result__bff">
                 <h3 class="text-center dess">나와 잘 맞는 음료</h3>
-                <img id="img-drk-bff" src="images/drink.png">
-                <h3 id="drink-bff" class="text-center mt-4">잘맞는 음료 이름</h3>
+                <img id="img-drk-bff" src="">
+                <div id="explain-bff" class="text-center mt-4">한줄설명</div>
+                <h3 id="drink-bff" class="text-center mt-1">잘맞는 음료 이름</h3>
+                
             </div>
         </div>
         
@@ -97,6 +101,8 @@
         $("#explain").html(result[mbti]["explain"]);
         $("#summary").html(result[mbti]["summary"]);
         $("#tags").html(result[mbti]["tags"]);
+        $("#explain-dess").html(result[mbti]["ex-dess"]);
+        $("#explain-bff").html(result[mbti]["ex-bff"]);
 
         document.querySelector(".btn-cpy").addEventListener("click", function(){
             var tempElem = document.createElement('textarea');
