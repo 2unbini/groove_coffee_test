@@ -244,10 +244,10 @@ var result = {
             "drink": "따뜻한 자몽 애플티",
             "summary": "마음이 여리고 따뜻한 당신!",
             "explain": "‣ 상큼한 과일 향히 은은하게 나는 자몽애플티와 어울리는 당신은 마음이 단단한 사람이에요.<br>‣ 감정을 솔직하게 표현할 줄 아는 사람으로, 솔직함이 장점이지만 때로는 상대방에게 상처를 주기도 해요.<br>‣ 강단 있는 성격으로 목표가 생기면 그 목표를 이루기 위해 최선을 다하고, 철저한 계획과 일의 효율을 중요시해요.",
-            "dessert": "초코 마들렌",
+            "dessert": "무화과 크림치즈 휘낭시에",
             "drink-bff": "따뜻한 아메리카노",
             "img-drk": "grapefruit.jpg",
-            "img-dess": "chocolate.jpg",
+            "img-dess": "creamcheese.jpg",
             "img-drk-bff": "americano.jpg",
             "tags": "#여리지만_단단한 #배려하는 #따뜻한"
             },
