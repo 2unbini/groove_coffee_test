@@ -12,7 +12,7 @@
 <body class="container">
 
     <main class="result" action="">
-        <img id="img-drk" class="text-center mt-5" src="images/drink.png">
+        <img id="img-drk" src="images/drink.png">
         <h2 id="drink" class="text-center">음료 이름</h2>
         <h3 id="summary" class="text-center">음료 한줄</h3>
         <p id="explain" >음료 설명</p>
@@ -20,12 +20,12 @@
         <div class="result__more">
             <div class="result__dessert">
                 <h3 class="text-center dess">나와 어울리는 디저트</h3>
-                <img id="img-dess" class="mt-3" src="images/dessert.png">
+                <img id="img-dess" src="images/dessert.png">
                 <h3 id="dessert" class="text-center mt-3">디저트 이름</h3>
             </div>
             <div class="result__bff">
                 <h3 class="text-center dess">나와 잘 맞는 음료</h3>
-                <img id="img-drk-bff" class="mt-3" src="images/drink.png">
+                <img id="img-drk-bff" src="images/drink.png">
                 <h3 id="drink-bff" class="text-center mt-3">잘맞는 음료 이름</h3>
             </div>
         </div>
@@ -88,9 +88,9 @@
 
         var mbti = getParameterByName('index');
 
-        $("#img-drk").attr('src', "images/" + result[mbti]["img-drk"]);
-        $("#img-dess").attr('src', "images/" + result[mbti]["img-dess"]);
-        $("#img-drk-bff").attr('src', "images/" + result[mbti]["img-drk-bff"]);
+        $("#img-drk").attr('src', "images/drink/" + result[mbti]["img-drk"]);
+        $("#img-dess").attr('src', "images/dessert/" + result[mbti]["img-dess"]);
+        $("#img-drk-bff").attr('src', "images/drink/" + result[mbti]["img-drk-bff"]);
         $("#drink").html(result[mbti]["drink"]);
         $("#dessert").html(result[mbti]["dessert"]);
         $("#drink-bff").html(result[mbti]["drink-bff"]);

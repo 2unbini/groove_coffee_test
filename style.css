@@ -7,8 +7,8 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "SunBatang-Bold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Bold.woff")
+  font-family: "Cafe24Danjunghae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -26,7 +26,7 @@
 body {
   /*font-family: "Jua", sans-serif;*/
   font-family: "Cafe24Oneprettynight";
-  background-color: rgba(222, 184, 135, 0.497);
+  /*background-color: rgba(222, 184, 135, 0.497);*/
 }
 
 main {
@@ -63,7 +63,7 @@ main {
   width: 50%;
 }
 .progress-bar {
-  background-color: burlywood;
+  background-color: rgb(89, 70, 42);
 }
 
 #A,
@@ -94,16 +94,17 @@ main {
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
-  box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.479);
+  /*box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.479);*/
 }
 
 #img-dess,
 #img-drk-bff {
   width: 130px;
   height: 130px;
+  border-radius: 10px;
   margin: 0 20px;
   object-fit: cover;
-  box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.479);
+  /*box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.298);*/
 }
 
 #drink {
@@ -123,6 +124,9 @@ main {
   opacity: 0.6;
   margin-bottom: 30px;
   line-height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 #dessert,
@@ -138,6 +142,15 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.result__dessert,
+.result__bff {
+  border: 0.001px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  width: 180px;
 }
 
 #more {
@@ -157,14 +170,14 @@ main {
 }
 
 .more__des {
-  font-size: 13px;
-  font-family: "SunBatang-Bold";
+  font-size: 15px;
+  font-family: "Cafe24Danjunghae";
 }
 
 .more__webzine {
-  border: 2.2px solid black;
+  border: 0px solid black;
   border-radius: 5px;
-  padding: 30px 25px 15px 25px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -173,7 +186,7 @@ main {
 }
 
 .more__wz-btn {
-  margin: 10px 0px 15px 0px;
+  margin-top: 10px;
   font-family: "SunBatang-Bold";
   font-size: 14px;
 }
