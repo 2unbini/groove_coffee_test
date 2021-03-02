@@ -26,7 +26,7 @@
 body {
   /*font-family: "Jua", sans-serif;*/
   font-family: "Cafe24Oneprettynight";
-  /*background-color: rgba(222, 184, 135, 0.497);*/
+  background-color: rgba(222, 184, 135, 0.497);
 }
 
 main {
@@ -39,7 +39,7 @@ main {
 
 .start {
   color: rgba(0, 0, 0, 1);
-  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
   display: flex;
   height: 100vh;
   vertical-align: middle;
@@ -56,11 +56,11 @@ main {
   display: none;
   height: 100vh;
   vertical-align: middle;
-  padding-bottom: 10%;
+  padding-bottom: 40%;
 }
 
 .progress {
-  width: 50%;
+  width: 90%;
 }
 .progress-bar {
   background-color: rgb(89, 70, 42);
@@ -71,20 +71,20 @@ main {
   padding: 8px 10px;
   background-color: transparent;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 0.1px solid rgba(0, 0, 0, 0.62);
   outline: transparent;
 }
 
 #A:active,
 #B:active {
-  background-color: rgb(62, 62, 62);
+  background-color: rgb(89, 70, 42);
   color: white;
   outline: solid black;
   outline-style: auto;
 }
 
 #title {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 10px;
 }
 
@@ -93,8 +93,9 @@ main {
   height: 200px;
   border-radius: 50%;
   margin: 0 auto;
+  margin-top: 30px;
   object-fit: cover;
-  /*box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.479);*/
+  box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.2);
 }
 
 #img-dess,
@@ -103,12 +104,12 @@ main {
   height: 130px;
   border-radius: 10px;
   margin: 0 20px;
-  object-fit: cover;
-  /*box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.298);*/
+  object-fit: contain;
+  box-shadow: 0 0px 10px 0px rgba(105, 105, 105, 0.2);
 }
 
 #drink {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 700;
   color: black;
   margin-top: 30px;
@@ -125,17 +126,20 @@ main {
   margin-bottom: 30px;
   line-height: 180%;
   background-color: rgba(0, 0, 0, 0.05);
-  padding: 10px;
+  padding: 15px;
   border-radius: 10px;
+  width: 300px;
 }
 
 #dessert,
 #drink-bff {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .dess {
   font-size: 15px;
+  padding: 10px 0px;
+  opacity: 0.7;
 }
 
 .result__more {
@@ -177,14 +181,15 @@ main {
 }
 
 .more__webzine {
-  border: 0px solid black;
   border-radius: 5px;
+  background-color: rgba(219, 199, 174, 0.3);
+  width: 300px;
   padding: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 23px 0px;
 }
 
 .more__wz-btn {
