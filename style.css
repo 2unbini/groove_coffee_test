@@ -26,7 +26,7 @@
 body {
   /*font-family: "Jua", sans-serif;*/
   font-family: "Cafe24Oneprettynight";
-  background-color: rgba(222, 184, 135, 0.497);
+  /*background-color: rgba(222, 184, 135, 0.497);*/
 }
 
 main {
@@ -95,7 +95,7 @@ main {
   margin: 0 auto;
   margin-top: 30px;
   object-fit: cover;
-  box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.2);
+  /*box-shadow: 0 0px 10px 5px rgba(105, 105, 105, 0.2);*/
 }
 
 #img-dess,
@@ -105,7 +105,7 @@ main {
   border-radius: 10px;
   margin: 0 20px;
   object-fit: contain;
-  box-shadow: 0 0px 10px 0px rgba(105, 105, 105, 0.2);
+  /*box-shadow: 0 0px 10px 0px rgba(105, 105, 105, 0.2);*/
 }
 
 #drink {
@@ -148,7 +148,6 @@ main {
   align-items: center;
 }
 
-/*
 .result__dessert,
 .result__bff {
   border: 0.001px solid rgba(0, 0, 0, 0.2);
@@ -157,7 +156,6 @@ main {
   margin: 5px;
   width: 180px;
 }
-*/
 
 #more {
   display: flex;
