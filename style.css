@@ -242,6 +242,8 @@ i {
 .btn-cpy {
   border: none;
   background-color: transparent;
+  padding-left: 3px;
+  padding-right: 0px;
 }
 
 .btn-cpy:focus {
