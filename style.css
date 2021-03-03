@@ -111,7 +111,7 @@ main {
   width: 130px;
   height: 130px;
   border-radius: 8px;
-  margin: 0 15px;
+  margin: 0 12px;
   object-fit: contain;
   box-shadow: 0 0px 10px 0px rgba(105, 105, 105, 0.2);
   padding: 5px;
@@ -199,7 +199,7 @@ main {
 .more__webzine {
   border-radius: 5px;
   background-color: rgba(219, 199, 174, 0.3);
-  width: 280px;
+  width: 300px;
   padding: 20px;
   display: flex;
   justify-content: center;
