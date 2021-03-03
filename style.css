@@ -71,7 +71,7 @@ main {
   padding: 8px 10px;
   background-color: transparent;
   border-radius: 5px;
-  border: 0.1px solid rgba(0, 0, 0, 0.62);
+  border: 1px solid rgba(0, 0, 0, 0.62);
   outline: transparent;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -81,8 +81,6 @@ main {
 #B:active {
   background-color: rgb(89, 70, 42);
   color: white;
-  outline: solid black;
-  outline-style: auto;
 }
 
 #title {
