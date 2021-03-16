@@ -94,6 +94,8 @@
         }
 
         var mbti = getParameterByName('index');
+        localStorage.setItem('mbti', mbti);
+        mbti = localStorage.getItem('mbti');
 
         $("#img-drk").attr('src', "images/drink/" + result[mbti]["img-drk"]);
         $("#img-dess").attr('src', "images/dessert/" + result[mbti]["img-dess"]);
